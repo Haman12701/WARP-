@@ -5,3 +5,4 @@
 warp://188.114.96.146:880?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#Warp 🇮🇷&&detour=warp://188.114.98.54:7152#WarpInWarp1 🇩🇪
 warp://188.114.96.146:880?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#Warp2 🇮🇷&&detour=warp://188.114.98.54:7152#WarpInWarp2 🇩🇪
 warp://162.159.192.171:1010?ifp=40-80&ifps=40-100&ifpd=4-8&ifpm=m4#Warp3 🇮🇷&&detour=warp://162.159.192.181:1070#WarpInWarp3 🇩🇪
+trojan://bacbaac-caba-bcaa-abdc-babaccaccbba@127.0.0.1:8080?security=tls&headerType=none&type=tcp#%F0%9F%91%A8%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB%20DEVELOPED-BY%20SPDNet%20%F0%9F%93%8C%20CONTACT%20%40MYYTHOMAS
