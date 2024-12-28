@@ -1,30 +1,5 @@
-import requests
-import subprocess
-
-# وارد کردن اسکریپت هیدیفای از گیتهاب
-def get_hiddify_script():
-    url = "https://raw.githubusercontent.com/Haman12701/Hiddify-Next/refs/heads/main/Hiddify-Next"
-    response = requests.get(url)
-    with open("hiddify.sh", "w") as file:
-        file.write(response.text)
-
-# اجرای اسکریپت هیدیفای
-def run_hiddify_script():
-    subprocess.run(["bash", "hiddify.sh"])
-
-# فعال‌سازی حجم و زمان نامحدود
-def enable_unlimited_quota():
-    profile = """
-    //profile-title: base64:V0FSUCAoSVJDRik=
+//profile-title: base64:V0FSUCAoSVJDRik=
 //profile-update-interval: 24
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=0
 //support-url: https://t.me/ircfspace
 //profile-web-page-url: https://ircf.space
-    """
-    with open("hiddify_config.txt", "w") as file:
-        file.write(profile)
-
-if __name__ == "__main__":
-    get_hiddify_script()
-    run_hiddify_script()
-    enable_unlimited_quota()
